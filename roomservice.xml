@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remove-project name="AOSPA/android_vendor_aospa" path="vendor/aospa" />
+	<project path="vendor/aospa" name="miramax001/android_vendor_aospa" remote="aospa" > 
+     		<linkfile src="build.sh" dest="rom-build.sh" /> 
+   	</project>
+	<project name="miramax001/android_device_oneplus_fajita" path="device/oneplus/fajita" remote="github" revision="lineage-19.1" />
+	<project name="miramax001/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-19.1" />
+	<project name="miramax001/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="lineage-19.1" />
+</manifest>
